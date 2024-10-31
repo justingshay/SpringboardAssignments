@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Deck of Cards</title>
+    </head>
+    <body>
+        <div>
+            <h3>Draw a card from a newly shuffled deck</h3>
+            <input type="button" value="Draw" onclick="drawSingleCard()"><br>
+            <span id="singleCard"></span>
+        </div>
+        <div>
+            <h3>Draw multiple cards from a deck</h3>
+            <input type="button" value="Draw" onclick="drawTwoCards()"><br>
+            <span id="multiCards"></span>
+        </div>
+        <div>
+            <h3>Draw until the deck runs out</h3>
+            <input type="button" value="Draw" onclick="drawEveryCard()"><br>
+            <div id="everyCard">
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="deckofcards.js"></script>
+    </body>
+</html>
