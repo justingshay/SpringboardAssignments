@@ -6,7 +6,8 @@ import App from './App';
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: 'https://swapi-graphql.netlify.app/.netlify/graphql/functions/index'
+    //uri: 'https://swapi-graphql.netlify.app/.netlify/graphql/functions/index'
+    uri: 'https://swapi-graphql.eskerda.vercel.app/'
   })
 });
 
