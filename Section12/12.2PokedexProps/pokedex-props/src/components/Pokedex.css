@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+.Pokedex {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 200px 200px 200px 200px;
+    width: 875px;
+    height:  600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f00;
+    border-radius: 15px;
+    box-shadow: 5px 5px #444;
+    overflow-y: scroll;
+}
