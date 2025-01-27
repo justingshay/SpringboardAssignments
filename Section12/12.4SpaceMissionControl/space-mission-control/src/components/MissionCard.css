@@ -1,0 +1,33 @@
+.MissionCard-container {
+    border: 2px solid #fff;
+    margin: 5px 0;
+    padding: 2px;
+    background-color: #40f;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.MissionCard-container:hover {
+    border-color: #fffb03;
+    box-shadow: 2px 2px #444;
+}
+
+.MissionCard {
+    margin-left: 5px;
+}
+
+.MissionCard-h2 {
+    color: #fffb03;
+    margin-bottom: 5px;
+}
+.MissionCard-container:hover .MissionCard-h2 {
+    text-decoration: underline;
+}
+
+.MissionCard-p {
+    color: #fff;
+}
+
+.MissionCard-p span {
+    color: #fffb03;
+}
