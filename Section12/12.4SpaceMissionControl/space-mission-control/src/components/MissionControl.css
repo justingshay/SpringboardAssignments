@@ -1,0 +1,13 @@
+.MissionControl {
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #40f;
+    overflow-y: scroll;
+}
+
+.MissionControl h1 {
+    text-align: center;    
+    color: #fffb03;
+}
