@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #001;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.Space {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.Stars {
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  color: #daf106;
+}
+
+.Stars:focus {
+  outline: none;
+}
+
+.Stars:hover {
+  color: #fff;
+}
